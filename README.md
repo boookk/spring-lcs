@@ -41,7 +41,7 @@
 | 강의 공개/비공개 | /lecture/{lectureId}/open-close  | PATCH |
 |   강사 매칭   |   /lecture/{lectureId}/teacher   | POST  |
 |   수강 신청   | /lecture/{lectureId}/application | POST  |
-|   수강 조회   |        /lecture/{userId}         | POST  |
+|   수강 조회   |        /lecture/{userId}         | GET  |
 |  컨텐츠 조회   |   /lecture/{lectureId}/content   |  GET  |
 |  컨텐츠 생성   |   /lecture/{lectureId}/content   | POST  |
 |   시험 등록   |    /lecture/{lectureId}/test     | POST  |
